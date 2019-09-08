@@ -17,7 +17,7 @@
             class="blue-grey darken-3"    
         >
             <v-list shaped>
-                <v-list-item-group v-model="item" color="white">
+                <v-list-item-group v-model="item" color="deep-orange">
                 <v-list-item
                     v-for="(item, i) in items"
                     :key="i"

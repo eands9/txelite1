@@ -4,7 +4,7 @@
       <v-flex mb-4>
         <v-card-text class=white--text>
           <p>
-            This is my Home Page
+            This is Placeholder 1
           </p>
         </v-card-text>
       </v-flex>

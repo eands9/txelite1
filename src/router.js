@@ -14,6 +14,36 @@ export default new Router({
       component: Home
     },
     {
+      path: '/dashboard',
+      name: 'dashboard',
+      component: Dashboard
+    },
+    {
+      path: '/schedule',
+      name: 'schedule',
+      component: Schedule
+    },
+    {
+      path: '/chat',
+      name: 'chat',
+      component: Chat
+    },
+    {
+      path: '/placeholder1',
+      name: 'placeholder1',
+      component: Placeholder1
+    },
+    {
+      path: '/placeholder2',
+      name: 'placeholder2',
+      component: Placeholder2
+    },
+    {
+      path: '/placeholder3',
+      name: 'placeholder3',
+      component: Placeholder3
+    },
+    {
       path: '/about',
       name: 'about',
       // route level code-splitting
