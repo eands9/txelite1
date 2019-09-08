@@ -2,7 +2,7 @@
   <v-container>
     <v-layout text-center>
       <v-flex mb-4>
-        <v-card-text>
+        <v-card-text class=red--text>
           This is my About Page
         </v-card-text>
       </v-flex>
