@@ -1,6 +1,12 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
+import Dashboard from '@/components/Dashboard'
+import Schedule from '@/components/Schedule'
+import Chat from '@/components/Chat'
+import Placeholder1 from '@/components/Placeholder1'
+import Placeholder2 from '@/components/Placeholder2'
+import Placeholder3 from '@/components/Placeholder3'
 
 Vue.use(Router)
 

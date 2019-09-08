@@ -4,7 +4,7 @@
       <v-flex mb-4>
         <v-card-text class=white--text>
           <p>
-            This is my Home Page
+            Put Your Content Here
           </p>
         </v-card-text>
       </v-flex>

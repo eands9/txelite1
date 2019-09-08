@@ -21,6 +21,7 @@
                 <v-list-item
                     v-for="(item, i) in items"
                     :key="i"
+                    router :to="item.route"
                 >
                     <v-list-item-icon>
                     <v-icon v-text="item.icon"></v-icon>
@@ -42,15 +43,15 @@
 export default {
     name: 'Navbar',
     data: () => ({
-      drawer: null,
+      drawer: false,
       item: 1,
       items: [
-        { text: 'Dashboard', icon: 'dashboard' },
-        { text: 'Schedule', icon: 'schedule' },
-        { text: 'Chat', icon: 'chat' },
-        { text: 'Placeholder 1', icon: 'sports_baseball' },
-        { text: 'Placeholder 2', icon: 'sports_baseball' },
-        { text: 'Placeholder 3', icon: 'sports_baseball' },
+        { text: 'Dashboard', icon: 'dashboard', route: '/dashboard' },
+        { text: 'Schedule', icon: 'schedule', route: '/schedule' },
+        { text: 'Chat', icon: 'chat', route: '/chat' },
+        { text: 'Placeholder 1', icon: 'sports_baseball', route: '/placeholder1' },
+        { text: 'Placeholder 2', icon: 'sports_baseball', route: '/placeholder2' },
+        { text: 'Placeholder 3', icon: 'sports_baseball', route: '/placeholder3' },
       ],
     }),
 }
