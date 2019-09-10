@@ -2,7 +2,7 @@
   <v-container>
     <v-layout text-center>
       <v-flex mb-4>
-        <v-card-text class=white--text>
+        <v-card-text>
           <p>
             This is Placeholder 1
           </p>
