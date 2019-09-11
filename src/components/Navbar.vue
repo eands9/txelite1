@@ -48,6 +48,7 @@ export default {
       items: [
         { text: 'Dashboard', icon: 'dashboard', route: '/dashboard' },
         { text: 'Schedule', icon: 'schedule', route: '/schedule' },
+        { text: 'Roster', icon: 'wc', route: '/roster' },
         { text: 'Chat', icon: 'chat', route: '/chat' },
         { text: 'Placeholder 1', icon: 'sports_baseball', route: '/placeholder1' },
         { text: 'Placeholder 2', icon: 'sports_baseball', route: '/placeholder2' },

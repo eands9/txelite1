@@ -2,7 +2,6 @@
   <div class=team>
     <h1 class="mx-4 mb-4 subheading">Schedule</h1>
       <v-container class=mx-5 mb-4 my-5>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime et earum tempore quibusdam. Architecto in accusamus beatae autem repellat cum suscipit eaque sed aspernatur, molestiae, culpa dolores, repudiandae libero eius.</p>
         <v-card class="flat pa-3">
           <v-layout row wrap>
             <v-flex class="xs12 md6">

@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Home from './views/Home.vue'
 import Dashboard from '@/components/Dashboard'
 import Schedule from '@/components/Schedule'
+import Roster from '@/components/Roster'
 import Chat from '@/components/Chat'
 import Placeholder1 from '@/components/Placeholder1'
 import Placeholder2 from '@/components/Placeholder2'
@@ -33,6 +34,11 @@ export default new Router({
       path: '/chat',
       name: 'chat',
       component: Chat
+    },
+    {
+      path: '/roster',
+      name: 'roster',
+      component: Roster
     },
     {
       path: '/placeholder1',
