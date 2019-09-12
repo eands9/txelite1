@@ -3,7 +3,7 @@
     <h1 class="mx-4 mb-4 subheading">Schedule</h1>
       <v-container class=mx-5 mb-4 my-5>
         <v-card class="flat pa-3">
-          <v-layout row wrap>
+          <v-layout row wrap mx-2>
             <v-flex class="xs12 md6">
               <div class="caption">Tournament</div>
               <div>South X SouthWest</div>
