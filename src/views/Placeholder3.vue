@@ -1,8 +1,8 @@
 <template>
   <div class=team>
-    <h1 class="mx-4 mb-4 subheading">Placeholder2</h1>
+    <h1 class="mx-4 mb-4 subheading">Placeholder3</h1>
       <v-container class=mx-4 mb-4 my-5>
-        <p>Content</p>  
+        <p>Under Construction</p>  
       </v-container>
   </div>
 </template>

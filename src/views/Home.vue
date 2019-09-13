@@ -1,13 +1,8 @@
 <template>
-  <v-container>
-    <v-layout text-center>
-      <v-flex mb-4>
-        <v-card-text>
-          <p>
-            Put Your Content Here
-          </p>
-        </v-card-text>
-      </v-flex>
-    </v-layout>
-  </v-container>
+  <div class=team>
+    <h1 class="mx-4 mb-4 subheading">Home</h1>
+      <v-container class=mx-4 mb-4 my-5>
+        <p>Under Construction</p>  
+      </v-container>
+  </div>
 </template>

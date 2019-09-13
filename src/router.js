@@ -1,13 +1,13 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
-import Dashboard from '@/components/Dashboard'
-import Schedule from '@/components/Schedule'
-import Roster from '@/components/Roster'
-import Chat from '@/components/Chat'
-import Placeholder1 from '@/components/Placeholder1'
-import Placeholder2 from '@/components/Placeholder2'
-import Placeholder3 from '@/components/Placeholder3'
+import Dashboard from '@/views/Dashboard'
+import Schedule from '@/views/Schedule'
+import Roster from '@/views/Roster'
+import Chat from '@/views/Chat'
+import Placeholder1 from '@/views/Placeholder1'
+import Placeholder2 from '@/views/Placeholder2'
+import Placeholder3 from '@/views/Placeholder3'
 
 Vue.use(Router)
 
