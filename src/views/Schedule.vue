@@ -1,7 +1,7 @@
 <template>
   <div class=team>
-    <v-row>
-      <h1 class="ml-4 mb-4 subheading">Schedule</h1>
+    <v-row align="center">
+      <h1 class="ml-4 subheading">Schedule</h1>
       <i class="material-icons">add_circle</i>
     </v-row>
 
@@ -44,6 +44,6 @@
 
 <style>
 .material-icons {
-  font-size: 48px;
+  font-size: 36px;
 }
 </style>
