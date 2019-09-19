@@ -1,6 +1,10 @@
 <template>
   <div class=team>
-    <h1 class="mx-4 mb-4 subheading">Schedule</h1>
+    <v-row>
+      <h1 class="ml-4 mb-4 subheading">Schedule</h1>
+      <i class="material-icons">add_circle</i>
+    </v-row>
+
       <v-container class=mx-5 mb-4 my-5>
         <v-card raised class="black white--text pa-3">
           <v-layout row wrap mx-2>
@@ -37,3 +41,9 @@
       </v-container>
   </div>
 </template>
+
+<style>
+.material-icons {
+  font-size: 48px;
+}
+</style>
