@@ -8,7 +8,16 @@
                     <span class="bold white--text">ELITE</span>
                 </router-link>
             </v-toolbar-title>
-
+            <v-spacer></v-spacer>
+            <Register/>
+            <v-btn color=black class=white--text>
+                Sign Out
+                <v-icon color=white>mdi-logout</v-icon>
+            </v-btn>
+            <v-btn color=black class=white--text>
+                Sign In
+                <v-icon color=white>mdi-login</v-icon>
+            </v-btn>
         </v-app-bar>
 
         <v-navigation-drawer
@@ -41,8 +50,11 @@
 </template>
 
 <script>
+import Register from '@/components/Register'
+
 export default {
     name: 'Navbar',
+    components: { Register },
     data: () => ({
       drawer: false,
       item: 1,

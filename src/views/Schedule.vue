@@ -1,10 +1,9 @@
 <template>
   <div class=team>
     <v-row align="center">
-      <h1 class="ml-4 subheading">Schedule</h1>
+      <h1 class="ml-6 subheading">Schedule</h1>
       <i class="material-icons">add_circle</i>
     </v-row>
-
       <v-container class=mx-5 mb-4 my-5>
         <v-card raised class="black white--text pa-3">
           <v-layout row wrap mx-2>
