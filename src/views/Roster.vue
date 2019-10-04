@@ -30,17 +30,17 @@ export default {
   data() {
     return {
       team: [
-        { name: '#27 Addison Pecenka', position: '3B/OF', avatar: '/avatar-3.png' },
-        { name: '#23 Alyria Smith', position: '3B/OF', avatar: '/avatar-3.png' },
-        { name: '#48 Amelia Nell', position: '2B/OF', avatar: '/avatar-3.png' },
-        { name: '#6 Bellalucia Cantu', position: 'LHP/1B', avatar: '/avatar-3.png'},
-        { name: '#4 Drew Amarro', position: 'C/SS', avatar: '/avatar-3.png' },
-        { name: '#3 Emma Alex', position: '2B/OF', avatar: '/avatar-3.png' },
-        { name: '#2 Julia Wilson', position: '1B/OF', avatar: '/avatar-3.png' },
-        { name: '#1 Kate Hernandez', position: 'RHP/SS', avatar: '/avatar-3.png' },
-        { name: '#5 Macie Bryant', position: 'RHP/3B', avatar: '/avatar-3.png' },
-        { name: '#35 Maggie Blankenship', position: 'OF', avatar: '/avatar-3.png' },
-        { name: '#21 Whitney Flanigan', position: 'C/OF', avatar: '/avatar-3.png' },
+        { name: '#27 Addison Pecenka', position: '3B/OF', avatar: '/AP1.png' },
+        { name: '#23 Alyria Smith', position: '3B/OF', avatar: '/AS1.png' },
+        { name: '#48 Amelia Nell', position: '2B/OF', avatar: '/AN1.png' },
+        { name: '#6 Bellalucia Cantu', position: 'LHP/1B', avatar: '/BC1.png'},
+        { name: '#4 Drew Amarro', position: 'C/SS', avatar: '/DA1.png' },
+        { name: '#3 Emma Alex', position: '2B/OF', avatar: '/EA1.png' },
+        { name: '#2 Julia Wilson', position: '1B/OF', avatar: '/JW1.png' },
+        { name: '#1 Kate Hernandez', position: 'RHP/SS', avatar: '/KH1.png' },
+        { name: '#5 Macie Bryant', position: 'RHP/3B', avatar: '/MB1.png' },
+        { name: '#35 Maggie Blankenship', position: 'OF', avatar: '/MBL1.png' },
+        { name: '#21 Whitney Flanigan', position: 'C/OF', avatar: '/WH1.png' },
         
 
       ]

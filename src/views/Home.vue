@@ -40,20 +40,21 @@ export default {
     setTimeout(function() {
       vm.events = [
         {
-          images: "https://txelite.s3.us-east-2.amazonaws.com/img/TeamWin.JPG"
+          images: '/TeamWin.jpeg'
         },
         {
-          images: "https://txelite.s3.us-east-2.amazonaws.com/img/JnK.jpeg"
+          images: '/awards.jpeg'
         },
         {
-          images: "https://txelite.s3.us-east-2.amazonaws.com/img/ChadNBeetle.jpeg"
+          images: '/OnB.png'
         },
         {
-          images: "https://txelite.s3.us-east-2.amazonaws.com/img/TeamWin2.jpeg"
+          images: '/20190929-champs.png'
         },
-                {
-          images: "https://txelite.s3.us-east-2.amazonaws.com/img/KateNDrewNMacie.jpeg"
-        }
+        {
+          images: '/ChadnBeetle.jpeg'
+        },
+
       ];
     }, 2000);
   }
